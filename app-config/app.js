@@ -18,7 +18,7 @@ app.get('/', function (req, res) {
             response += secerr + '\n';
         }
         else {
-            response += 'The secret is => ' + secdata + '\n';
+            response += 'The secret is otraversion  => ' + secdata + '\n';
         }
 
         //send the response to the client
